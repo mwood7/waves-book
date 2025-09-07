@@ -11,10 +11,14 @@ root: index
 # Or you organize the TOC by parts
 
 parts:
+  - caption: Front Matter
+    chapters: 
+    - file: book/preface
   - caption: Chapters
     numbered: true
     maxdepth: 2
     chapters:
+      - file: book/chapter01
       - file: book/markdown
       - file: book/notebooks
   - caption: Appendices
