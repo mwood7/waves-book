@@ -1,6 +1,6 @@
 # Waves!
 
-This cookiecutter creates a simple boilerplate for a Jupyter Book.
+An Open-Source textbook for physics classes focussing on waves, acoustics, and optics.
 
 ## Usage
 
