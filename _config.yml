@@ -5,10 +5,10 @@
 
 #######################################################################################
 # Book settings
-title: Waves! # The title of the book. Will be placed in the left navbar.
+title: The Physics of Waves, Acoustics, and Optics # The title of the book. Will be placed in the left navbar.
 author: Matt A. Wood # The author of the book
 copyright: "2025" # Copyright year to be placed in the footer
-logo: art/logo.png # A path to the book logo
+logo: logo.png # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 # Auto-exclude files not in the toc
