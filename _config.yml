@@ -52,6 +52,8 @@ html:
 
 sphinx:
   config:
+    numfig: true
+    html_math_sections: true
     # html_extra_path: ["CNAME", "robots.txt"]
     html_theme_options:
       use_download_button: true
@@ -66,7 +68,11 @@ sphinx:
         }
     bibtex_reference_style: author_year
 
-
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - amsmath
 # Define the name of the latex output file for PDF builds
 # latex:
 #   latex_documents:
